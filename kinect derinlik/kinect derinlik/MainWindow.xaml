@@ -1,0 +1,10 @@
+﻿<Window x:Class="Kinect104_Depth.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect 104: Derinlik Görüntüsü" Height="522" Width="660"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Image Name="imgDepthFrame" Stretch="Uniform" />
+    </Grid>
+</Window>
